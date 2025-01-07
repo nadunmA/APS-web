@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Reviews</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    
+    <div class="userReBanner"></div>
+    <div class="userrBannerText">
+        <h2>User Review's</h2><br>
+        <h3>Park Pro</h3>
+    </div> 
+
+    <div class="userReviewSlider"></div>
+
+    <div class="divformPic"></div>
+    
+    <div class="middleText">
+        <h2>Add You're Experience</h2>
+    </div>
+
+    <div class="mianForm" id="formBack">
+        <form action="" class="mainFullForm" id="reviewForm">
+            <label>User Id</label>
+            <input type="text" name="userid" placeholder="Your ID" class="userAddDetails" required>
+            <label>Name</label>
+            <input type="text" name="name" placeholder="Your Name" class="userAddDetails" required>
+            <label>Email</label>
+            <input type="email" name="email" placeholder="Your Email" class="userAddDetails" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$">
+            <label>Review</label>
+            <textarea name="message" placeholder="Your Review" class="userAddDetails" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+   
+    <div class="submittedReviews" id="submittedReviews">
+        <div id="reviewsList"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
