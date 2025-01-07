@@ -1,0 +1,38 @@
+/*.userReBanner{
+    height: 850px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    border-radius: 5px; 
+    margin-top: -75px;
+    position: relative;
+    background-attachment: fixed;
+    object-fit: cover;   
+    background: rgba(0, 0, 0, 0.416)url(../images/ucars.jpg);
+    background-blend-mode: darken;
+    margin-top: 8px;
+
+}
+
+.userrBannerText h2{
+    position: absolute;
+    width: 100%;
+    margin-top: -780px;
+    text-align: center;
+    color: rgba(224, 224, 224, 0.99);
+    font-family: sans-serif;
+    font-size: 85px;
+
+}
+
+.userrBannerText h3{
+    position: absolute;
+    width: 100%;
+    margin-top: -700px;
+    text-align: center;
+    color: rgba(224, 224, 224, 0.99);
+    font-family: sans-serif;
+    font-size: 65px;
+    
+}
